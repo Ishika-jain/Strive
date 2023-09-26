@@ -1,0 +1,21 @@
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 10;
+  /* visibility: hidden; */
+}
+
+.bg{
+  background: linear-gradient(#f4d3c4, #d1f1e3);
+  width: 150px;
+}
+
+.button{
+  margin: 5px;
+  width: 100%;
+  background: white;
+  border: black 1px;
+  border-radius: 5px;
+}

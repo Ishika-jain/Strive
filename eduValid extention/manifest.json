@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Ekalavya",
+    "version": "1.0",
+    "description": "Disable youtube homescreen, comments, sidebar, shorts. Finish a video and get confetti too!!",
+    "permissions": [
+      "activeTab",
+      "storage",
+      "scripting",
+      "webNavigation",
+      "tabs"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "host_permissions": [
+      "https://www.youtube.com/*"
+    ]
+  
+  }
